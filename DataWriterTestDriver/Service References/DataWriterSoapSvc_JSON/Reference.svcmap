@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d058094e-e6a7-4497-830b-b12634d031ab" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/DWS/JSON" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="JSON.disco" MetadataType="Disco" ID="fdff24a3-6ac0-42d5-bbbc-6415dadd79e4" SourceId="1" SourceUrl="http://localhost:8733/DWS/JSON?disco" />
+    <MetadataFile FileName="DataWriterJSONSoapSvc.wsdl" MetadataType="Wsdl" ID="29f67aea-afcb-4d57-bfcc-36c1b5019944" SourceId="1" SourceUrl="http://localhost:8733/DWS/JSON?wsdl" />
+    <MetadataFile FileName="JSON.xsd" MetadataType="Schema" ID="bafd36b5-01dc-418a-a499-0f41b842c747" SourceId="1" SourceUrl="http://localhost:8733/DWS/JSON?xsd=xsd1" />
+    <MetadataFile FileName="JSON1.xsd" MetadataType="Schema" ID="ccdcd999-916a-48bd-bdbc-66d8e1ef52a6" SourceId="1" SourceUrl="http://localhost:8733/DWS/JSON?xsd=xsd2" />
+    <MetadataFile FileName="JSON2.xsd" MetadataType="Schema" ID="84532f2f-0bf5-41be-a5d0-7f729264ea8d" SourceId="1" SourceUrl="http://localhost:8733/DWS/JSON?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

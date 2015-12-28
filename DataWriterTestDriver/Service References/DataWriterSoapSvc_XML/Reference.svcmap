@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="30e757f2-50bc-4e0d-9e16-98957193653b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/DWS/XML/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="5a16edc5-01b2-4bb8-9f93-27bdb2048096" SourceId="1" SourceUrl="http://localhost:8733/DWS/XML/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="f106875a-201b-4537-ae55-2b34f095fb7b" SourceId="1" SourceUrl="http://localhost:8733/DWS/XML/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d0058fed-f850-4831-918c-d87649cb7eb5" SourceId="1" SourceUrl="http://localhost:8733/DWS/XML/mex" />
+    <MetadataFile FileName="DataWriter.SoapServices.xsd" MetadataType="Schema" ID="8205fb0c-e6db-4238-aa67-479f84ccc4eb" SourceId="1" SourceUrl="http://localhost:8733/DWS/XML/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="81c9b807-c3fe-45b4-af74-60b4a4fb4fd6" SourceId="1" SourceUrl="http://localhost:8733/DWS/XML/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
